@@ -13,6 +13,15 @@
 		B682241C1FF3B2DB00F4A00D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B682241B1FF3B2DB00F4A00D /* Assets.xcassets */; };
 		B682241F1FF3B2DB00F4A00D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B682241D1FF3B2DB00F4A00D /* LaunchScreen.storyboard */; };
 		B68224221FF3B2DB00F4A00D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B68224211FF3B2DB00F4A00D /* main.m */; };
+		B682242A1FF3B34400F4A00D /* opencore-vo-amrwbenc-iOS-master.zip in Resources */ = {isa = PBXBuildFile; fileRef = B68224291FF3B34400F4A00D /* opencore-vo-amrwbenc-iOS-master.zip */; };
+		B682243E1FF3B3FF00F4A00D /* libopencore-amrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B682242D1FF3B3FF00F4A00D /* libopencore-amrwb.a */; };
+		B682243F1FF3B3FF00F4A00D /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B682242E1FF3B3FF00F4A00D /* libopencore-amrnb.a */; };
+		B68224401FF3B3FF00F4A00D /* libvo-amrwbenc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B682242F1FF3B3FF00F4A00D /* libvo-amrwbenc.a */; };
+		B68224411FF3B40000F4A00D /* VoiceConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = B68224311FF3B3FF00F4A00D /* VoiceConverter.mm */; };
+		B68224421FF3B40000F4A00D /* wavreader.c in Sources */ = {isa = PBXBuildFile; fileRef = B68224331FF3B3FF00F4A00D /* wavreader.c */; };
+		B68224431FF3B40000F4A00D /* wavwriter.c in Sources */ = {isa = PBXBuildFile; fileRef = B68224381FF3B3FF00F4A00D /* wavwriter.c */; };
+		B68224481FF3B4E000F4A00D /* 8KHZVoiceConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = B68224471FF3B4E000F4A00D /* 8KHZVoiceConverter.mm */; };
+		B682244B1FF3B50F00F4A00D /* 16KHZVoiceConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = B682244A1FF3B50F00F4A00D /* 16KHZVoiceConverter.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +35,25 @@
 		B682241E1FF3B2DB00F4A00D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B68224201FF3B2DB00F4A00D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B68224211FF3B2DB00F4A00D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B68224291FF3B34400F4A00D /* opencore-vo-amrwbenc-iOS-master.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "opencore-vo-amrwbenc-iOS-master.zip"; sourceTree = "<group>"; };
+		B682242D1FF3B3FF00F4A00D /* libopencore-amrwb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrwb.a"; sourceTree = "<group>"; };
+		B682242E1FF3B3FF00F4A00D /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
+		B682242F1FF3B3FF00F4A00D /* libvo-amrwbenc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libvo-amrwbenc.a"; sourceTree = "<group>"; };
+		B68224301FF3B3FF00F4A00D /* wavwriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wavwriter.h; sourceTree = "<group>"; };
+		B68224311FF3B3FF00F4A00D /* VoiceConverter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VoiceConverter.mm; sourceTree = "<group>"; };
+		B68224321FF3B3FF00F4A00D /* VoiceConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceConverter.h; sourceTree = "<group>"; };
+		B68224331FF3B3FF00F4A00D /* wavreader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wavreader.c; sourceTree = "<group>"; };
+		B68224351FF3B3FF00F4A00D /* if_rom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_rom.h; sourceTree = "<group>"; };
+		B68224361FF3B3FF00F4A00D /* dec_if.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dec_if.h; sourceTree = "<group>"; };
+		B68224371FF3B3FF00F4A00D /* wavreader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wavreader.h; sourceTree = "<group>"; };
+		B68224381FF3B3FF00F4A00D /* wavwriter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wavwriter.c; sourceTree = "<group>"; };
+		B682243A1FF3B3FF00F4A00D /* enc_if.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = enc_if.h; sourceTree = "<group>"; };
+		B682243C1FF3B3FF00F4A00D /* interf_dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_dec.h; sourceTree = "<group>"; };
+		B682243D1FF3B3FF00F4A00D /* interf_enc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_enc.h; sourceTree = "<group>"; };
+		B68224441FF3B49D00F4A00D /* 8KHZVoiceConverter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 8KHZVoiceConverter.h; sourceTree = "<group>"; };
+		B68224471FF3B4E000F4A00D /* 8KHZVoiceConverter.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = 8KHZVoiceConverter.mm; sourceTree = "<group>"; };
+		B68224491FF3B4FC00F4A00D /* 16KHZVoiceConverter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 16KHZVoiceConverter.h; sourceTree = "<group>"; };
+		B682244A1FF3B50F00F4A00D /* 16KHZVoiceConverter.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = 16KHZVoiceConverter.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +61,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B682243E1FF3B3FF00F4A00D /* libopencore-amrwb.a in Frameworks */,
+				B68224401FF3B3FF00F4A00D /* libvo-amrwbenc.a in Frameworks */,
+				B682243F1FF3B3FF00F4A00D /* libopencore-amrnb.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +89,7 @@
 		B68224111FF3B2DB00F4A00D /* WavAmrConverter */ = {
 			isa = PBXGroup;
 			children = (
+				B682242B1FF3B39500F4A00D /* VoiceConverter */,
 				B68224121FF3B2DB00F4A00D /* AppDelegate.h */,
 				B68224131FF3B2DB00F4A00D /* AppDelegate.m */,
 				B68224151FF3B2DB00F4A00D /* ViewController.h */,
@@ -67,8 +99,74 @@
 				B682241D1FF3B2DB00F4A00D /* LaunchScreen.storyboard */,
 				B68224201FF3B2DB00F4A00D /* Info.plist */,
 				B68224211FF3B2DB00F4A00D /* main.m */,
+				B68224281FF3B2EE00F4A00D /* Resource */,
 			);
 			path = WavAmrConverter;
+			sourceTree = "<group>";
+		};
+		B68224281FF3B2EE00F4A00D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B68224291FF3B34400F4A00D /* opencore-vo-amrwbenc-iOS-master.zip */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		B682242B1FF3B39500F4A00D /* VoiceConverter */ = {
+			isa = PBXGroup;
+			children = (
+				B682242C1FF3B3FF00F4A00D /* lib */,
+				B682243B1FF3B3FF00F4A00D /* opencore-amrnb */,
+				B68224341FF3B3FF00F4A00D /* opencore-amrwb */,
+				B68224391FF3B3FF00F4A00D /* vo-amrwbenc */,
+				B68224321FF3B3FF00F4A00D /* VoiceConverter.h */,
+				B68224311FF3B3FF00F4A00D /* VoiceConverter.mm */,
+				B68224331FF3B3FF00F4A00D /* wavreader.c */,
+				B68224371FF3B3FF00F4A00D /* wavreader.h */,
+				B68224381FF3B3FF00F4A00D /* wavwriter.c */,
+				B68224301FF3B3FF00F4A00D /* wavwriter.h */,
+				B68224441FF3B49D00F4A00D /* 8KHZVoiceConverter.h */,
+				B68224471FF3B4E000F4A00D /* 8KHZVoiceConverter.mm */,
+				B68224491FF3B4FC00F4A00D /* 16KHZVoiceConverter.h */,
+				B682244A1FF3B50F00F4A00D /* 16KHZVoiceConverter.mm */,
+			);
+			path = VoiceConverter;
+			sourceTree = "<group>";
+		};
+		B682242C1FF3B3FF00F4A00D /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				B682242D1FF3B3FF00F4A00D /* libopencore-amrwb.a */,
+				B682242E1FF3B3FF00F4A00D /* libopencore-amrnb.a */,
+				B682242F1FF3B3FF00F4A00D /* libvo-amrwbenc.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		B68224341FF3B3FF00F4A00D /* opencore-amrwb */ = {
+			isa = PBXGroup;
+			children = (
+				B68224351FF3B3FF00F4A00D /* if_rom.h */,
+				B68224361FF3B3FF00F4A00D /* dec_if.h */,
+			);
+			path = "opencore-amrwb";
+			sourceTree = "<group>";
+		};
+		B68224391FF3B3FF00F4A00D /* vo-amrwbenc */ = {
+			isa = PBXGroup;
+			children = (
+				B682243A1FF3B3FF00F4A00D /* enc_if.h */,
+			);
+			path = "vo-amrwbenc";
+			sourceTree = "<group>";
+		};
+		B682243B1FF3B3FF00F4A00D /* opencore-amrnb */ = {
+			isa = PBXGroup;
+			children = (
+				B682243C1FF3B3FF00F4A00D /* interf_dec.h */,
+				B682243D1FF3B3FF00F4A00D /* interf_enc.h */,
+			);
+			path = "opencore-amrnb";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +229,7 @@
 			files = (
 				B682241F1FF3B2DB00F4A00D /* LaunchScreen.storyboard in Resources */,
 				B682241C1FF3B2DB00F4A00D /* Assets.xcassets in Resources */,
+				B682242A1FF3B34400F4A00D /* opencore-vo-amrwbenc-iOS-master.zip in Resources */,
 				B682241A1FF3B2DB00F4A00D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,7 +243,12 @@
 			files = (
 				B68224171FF3B2DB00F4A00D /* ViewController.m in Sources */,
 				B68224221FF3B2DB00F4A00D /* main.m in Sources */,
+				B682244B1FF3B50F00F4A00D /* 16KHZVoiceConverter.mm in Sources */,
+				B68224481FF3B4E000F4A00D /* 8KHZVoiceConverter.mm in Sources */,
+				B68224421FF3B40000F4A00D /* wavreader.c in Sources */,
 				B68224141FF3B2DB00F4A00D /* AppDelegate.m in Sources */,
+				B68224411FF3B40000F4A00D /* VoiceConverter.mm in Sources */,
+				B68224431FF3B40000F4A00D /* wavwriter.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +386,10 @@
 				DEVELOPMENT_TEAM = D968A6BAYJ;
 				INFOPLIST_FILE = WavAmrConverter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WavAmrConverter/VoiceConverter/lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dashang.WavAmrConverter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -296,6 +404,10 @@
 				DEVELOPMENT_TEAM = D968A6BAYJ;
 				INFOPLIST_FILE = WavAmrConverter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WavAmrConverter/VoiceConverter/lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dashang.WavAmrConverter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
